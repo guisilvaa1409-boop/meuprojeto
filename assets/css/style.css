@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 body {
+    background-image: url(https://www.themarysue.com/wp-content/uploads/2023/04/dnd-dice-explained.jpg);
     background-color: black;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -21,5 +22,30 @@ header {
     top: 0;
     z-index: 10;
 
-
+}
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(95, 2, 2);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.logo::first-letter {
+    color: rgb(37, 2, 2);
+}
+.pesquisa::first-letter {
+    color: rgb(64, 21, 143);
+}
+.pesquisa {
+    display: flex;
+    gap: 30px;
+}
+.pesquisa a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.pesquisa a:hover {
+    color: rgb(64, 21, 143);
+    font-size: 20px;
 }
